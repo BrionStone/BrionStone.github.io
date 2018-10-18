@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# Brion Stone
 
-You can use the [editor on GitHub](https://github.com/BrionStone/brionstone.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Objectives:
+- Principal-level technical positions
+- Complex distributed cloud/dedicated services
+- Creating systems to optimize cloud operations
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Expertise:
+DevOps, Capacity Planning & Performance, Cloud Infrastructure Design & Architecture, Project/Program Management, Disaster Recovery, Analysis & Forecasting, Agile Development, Billing
+ 
+## Projects
+Current projects:
+- EKS Vault IAM credential provider: (python/bash script) run Hashicorp Vault-Operator, Vault, etcd, to provide dynamic AWS IAM credentials to Kubernetes pods based on their Service Account.
+- AWS TrustRunner:  AWS Lambda function (python) running periodically to track regressions in AWS Trusted Advisor checks.
+- AWS CowCatcher: AWS Lambda function (python) finding instances and reporting/stopping/deleting them based on given criteria.
+- AWS Monitor: AWS Lambda function (python)  creates/refreshes instance-based Cloudwatch monitors and dashboards.
+- Dubweb: python/flask/javascript/mysql application to budget/track cloud spend.
+- Lemur/cfssl integration: (golang) - self-service certificate management.
+- Klar/Clair/Docker/Gitlab integration: (gitlab script) - build-time container scanning. 
 
-### Markdown
+## Employment
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Zulily
+(2013 - Current)
+Optimize DevOps resources by migrating business applications to a Kubernetes cluster (Docker container hosting using the Google Compute Engine), managing the project while creating:
+• Custom farm logging using ELK (elasticsearch/logstash/kibana on CoreOS).
+•	Backup/restore pods which backup/restore encrypted Mysql and Mongo dumps to cloud storage (Docker, Bash shell)
+•	Namespace-based scaling and costing tools (Python, Kubernetes API).
 
-```markdown
-Syntax highlighted code block
+Understand and reduce costs for datacenter and cloud through creation of an open source cost / usage analysis application for cloud, datacenter and SAAS footprint including:
+•	Automated Extract/Transform/Load tool to import cloud usage metrics (Python/MySQL).
+• Web application for creation/tracking/reporting datacenter budgets/actuals (Flask/Python/AngularJS/Bootstrap).
 
-# Header 1
-## Header 2
-### Header 3
+Streamline service capacity by analyzing historical traffic, creating capacity models, and developing automated tools including:
+• Alerts when actual traffic diverges from predicted traffic (Nagios).
+• Clickstream analysis of regressions in Mongo, Redis, and MySQL (Google BigQuery).
 
-- Bulleted
-- List
+Increase resilience by leading business continuity and disaster recovery efforts including:
+•	System outage tracking and availability reporting (Python, JIRA, Excel).
+•	Monitoring systems planning and provisioning (SaltStack, Python, Zabbix).
+•	Automated backup tools with client-side encryption and Google Cloud storage (PHP).
 
-1. Numbered
-2. List
+### Microsoft
+Enterprise Search Group, SharePoint Search (2007-2013)
+Co-invented multiple technology innovations resulting in 2 new patents for Microsoft and 1 pending including patent in search health monitoring.
+Designed and led implementation of on-premises and Office365 cloud-base search functions (SharePoint) handling performance monitoring and development of:
+- Topology management, object model, PowerShell, faceted search, and monitoring features.
+- Performance, reliability, capacity planning, and security (threat modeling).
+- Led development of features for Office365 V1 launch including: 
+- Disaster recovery, high availability, and customer site restoration
 
-**Bold** and _Italic_ and `Code` text
+Windows Live Member Experience Group, Live Favorites (2004-2007)
+• Incubated idea, developed architecture, recruited and led small team in implementation of Windows Live Favorites, allowing users to access, share, and synchronize IE bookmarks across all major MSN applications.
 
-[Link](url) and ![Image](src)
-```
+MSN Core Services, Special Forces Team (2001-2004)
+• Drove development of new features and critical services for MSN including installation, authorization, and signup (MSN7.x, 8.x & 9).
+• Facilitated partner integration with Charter, Dell, Verizon, and Major League Baseball for releases.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BrionStone/brionstone.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Internet Explorer Sustained Engineering, IE for Unix (2000-2001)
+• Met corporate customer needs by leading IE for Unix 5.0 SP1 project and QFE releases (4) while managing remote development and testing groups in Israel and Redmond.
+• Improved functionality by writing and managing specifications throughout software development lifecycle. 
+• Integrated Windows IE fixes into Unix IE source code (C++).
