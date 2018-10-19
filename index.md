@@ -8,6 +8,12 @@ Objectives:
 Expertise:
 DevOps, Capacity Planning & Performance, Cloud Infrastructure Design & Architecture, Project/Program Management, Disaster Recovery, Analysis & Forecasting, Agile Development, Billing
  
+ ## Blog
+Entries:
+- [Measuring cost](./blog/dubweb.md)
+- [Capacity Phases](./blog/cap_phases.md) 
+- [Managing Software Capacity](./blog/capacity.md) 
+
 ## Projects
 Current projects:
 - EKS Vault IAM credential provider: (python/bash script) run Hashicorp Vault-Operator, Vault, etcd, to provide dynamic AWS IAM credentials to Kubernetes pods based on their Service Account.
