@@ -1,4 +1,4 @@
-#Managing Software Capacity
+# Managing Software Capacity
 What does it mean to "manage" it?  Basically, for the various components, it is a cycle of:
 
 - Characterize ::= Diagram 
@@ -9,7 +9,7 @@ What does it mean to "manage" it?  Basically, for the various components, it is 
 
 Note: Symbol ::= means "may be replaced with" in Backus-Naur Form (BNF)
 
-##Characterize
+## Characterize
 Diagram the system architecture (date your diagrams as change is constant).  Focus on the key component flows of the system, with
 
 - description
@@ -18,7 +18,7 @@ Diagram the system architecture (date your diagrams as change is constant).  Foc
 - external scale drivers for this flow
 - peak periods
 
-##Measure
+## Measure
 Lord Kelvin said "To measure is to know".   Some tips to consider:
 
 - Ensure you have a durable storage location for trend metrics. Based on your needs, you many consider high availability in your storage (and collection).
@@ -26,7 +26,7 @@ Lord Kelvin said "To measure is to know".   Some tips to consider:
 - Use common metrics collection platforms, if possible.
 - Also collect metrics from upstream systems, critical for forecasting your system capacity.
 
-##Analyze
+## Analyze
 Metrics are only numbers.  The hard part is understanding which ones to collect, and what they mean:
 
 - Start with basic metrics, and understand how they change over time. CPU, Disk IO waits, Storage Capacity, Available Memory, Network bandwidth can usually be collected for any monitored system.
@@ -34,7 +34,7 @@ Metrics are only numbers.  The hard part is understanding which ones to collect,
 - Simplify upstream metrics to a few basic metrics that given rough approximations of downstream impact, as complete characterization of upstream load is unlikely.
 - Analyze the limitations of your resources, as well, given your specific load examples and patterns. For example, RabbitMQ may benchmark at 1500 150KB msgs/sec on a specific system, however, a typical use at your company could include 1MB messages that invalidate the benchmark.
 
-##Forecast
+## Forecast
 Forecasting is not a black art. First, answer your basic capacity question: do I have adequate capacity to keep my system running? Specifically:
 
 - What traffic should my key component flows be experiencing at this time?
@@ -46,7 +46,7 @@ Simple forecasting can be done with models in spreadsheets. After you tire of up
 - Provide the current actuals, on the same chart, to understand when your forecast assumptions are incorrect.
 - (Stretch goal) Provide APIs surfacing capacity for a given timeframe, allowing automated scale up/down the given system.
 
-##Adjust
+## Adjust
 
 Capacity management is about efficient use of resources (and since resources aren't free, it's all about optimizing cost).  I suggest the following crawl/walk/run phases:
 
