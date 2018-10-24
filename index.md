@@ -10,6 +10,7 @@ DevOps, Capacity Planning & Performance, Cloud Infrastructure Design & Architect
  
 Blog Entries:
 
+- [Building a DevOps Team](./blog/building_devops.md)
 - [Measuring cost](./blog/dubweb.md)
 - [Capacity Phases](./blog/cap_phases.md) 
 - [Managing Software Capacity](./blog/capacity.md) 
