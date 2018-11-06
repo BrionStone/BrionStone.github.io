@@ -19,6 +19,7 @@ Blog Entries:
 Current projects:
 
 - EKS Vault IAM credential provider: (python/bash script) run Hashicorp Vault-Operator, Vault, etcd, to provide dynamic AWS IAM credentials to Kubernetes pods based on their Service Account.
+- [Google G-Scout fork:  Scripts (python) running periodically to track security regressions in Google cloud, adding slack and email integration](https://github.com/zulily/G-Scout).
 - [AWS TrustRunner:  AWS Lambda function (python) running periodically to track regressions in AWS Trusted Advisor checks](https://github.com/zulily/aws_trustrunner).
 - [AWS CowCatcher: AWS Lambda function (python) finding instances and reporting/stopping/deleting them based on given criteria](https://github.com/zulily/cow_catcher).
 - [AWS Monitor: AWS Lambda function (python)  creates/refreshes instance-based Cloudwatch monitors and dashboards](https://github.com/zulily/aws_monitor).
