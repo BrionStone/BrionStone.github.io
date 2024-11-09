@@ -6,18 +6,18 @@ Objectives:
 - Creating systems to optimize cloud operations
 
 Expertise:
-DevOps, Capacity Planning & Performance, Cloud Infrastructure Design & Architecture, Project/Program Management, Disaster Recovery, Analysis & Forecasting, Agile Development, Billing
+Kubernetes, DevOps, Capacity Planning & Performance, Cloud Infrastructure Design & Architecture, Project/Program Management, Disaster Recovery, Analysis & Forecasting, Agile Development, Billing
  
 Blog Entries:
 
 - [Building a DevOps Team](./blog/building_devops.md)
+- [Readable Repos](./blog/open_source.md)
 - [Measuring cost](./blog/dubweb.md)
 - [Capacity Phases](./blog/cap_phases.md) 
 - [Managing Software Capacity](./blog/capacity.md) 
 
 ## Projects
-Current projects:
-
+- Kube Central: Web application running in Kubernetes with an RDS backend which provides a historical view of all containers running on k8s clusters, relying on cronjob-triggered clients to push running container lists.
 - EKS Vault IAM credential provider: (python/bash script) run Hashicorp Vault-Operator, Vault, etcd, to provide dynamic AWS IAM credentials to Kubernetes pods based on their Service Account.
 - [Google G-Scout fork:  Scripts (python) running periodically to track security regressions in Google cloud, adding slack and email integration](https://github.com/zulily/G-Scout).
 - [AWS TrustRunner:  AWS Lambda function (python) running periodically to track regressions in AWS Trusted Advisor checks](https://github.com/zulily/aws_trustrunner).
@@ -29,8 +29,15 @@ Current projects:
 
 ## Employment
 
+### GameStop
+(2021 - current)
+
+Lead creation of a GitLab CI/CD - ArgoCD - managed Kubernetes (k8s-gitops) platform for hosting teams' applications. Migrate existing applications hosted on custom/kops/cdk/etc. k8s to the k8s-gitops platform.
+Create "Kube Central" Kubernetes container tracking client/server application to provide manageability across all Kubernetes clusters (EKS, Kops, etc.). Provide tools for optimizing repos and container registries that use Kube Central to ensure that running container images aren't pruned.
+Provide common base container system, with automated building/scanning/deploying of containers with the latest fixes.
+
 ### Zulily
-(2013 - Current)
+(2013 - 2021)
 Optimize DevOps resources by migrating business applications to a Kubernetes cluster (Docker container hosting using the Google Compute Engine), managing the project while creating:
 
 -  Custom farm logging using ELK (elasticsearch/logstash/kibana on CoreOS).

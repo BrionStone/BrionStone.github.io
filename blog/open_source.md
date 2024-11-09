@@ -1,4 +1,4 @@
-In my [Building a DevOps Team](./blog/building_devops.md) post, I wrote that you should "Remember to look for open source contributions from the potential DevOps engineers; most engineers keep the code they write handy."
+In my [Building a DevOps Team](building_devops.md) post, I wrote that you should "Remember to look for open source contributions from the potential DevOps engineers; most engineers keep the code they write handy."
 
 I'd like to provide a little more context on what I look for from those open source contributions when reviewing a potential candidate.
 
